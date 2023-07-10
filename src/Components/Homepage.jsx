@@ -20,7 +20,7 @@ export default function Homepage() {
         </div>
       </div>
     </div>
-      <a href="/Prompt" ><button className="text-white block w-1/5 mx-auto text-center my-24 bg-blue-700 py-2 rounded-full transition duration-300 transform hover:scale-105 hover:bg-blue-800 ">Start by creating your nfts through ai prompts</button></a>
+      <a href="/Prompt" ><button className="text-white block w-1/5 mx-auto text-center my-24 bg-blue-700 py-2 rounded-full transition duration-300 transform hover:scale-105 hover:bg-blue-800 ">Give wings to your imagination</button></a>
     </>
   );
 }

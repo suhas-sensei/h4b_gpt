@@ -7,10 +7,10 @@ function Prompt() {
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [placeholder, setPlaceholder] = useState(
-    "Search Bears with Paint Brushes the Starry Night, painted by Vincent Van Gogh.."
+    "Epic Creations Await!"
   );
   const configuration = new Configuration({
-    apiKey: "",
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY,
   });
 
   const openai = new OpenAIApi(configuration);
