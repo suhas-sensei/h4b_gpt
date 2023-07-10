@@ -2,13 +2,13 @@
 import { BeaconWallet } from "@taquito/beacon-wallet";
 
 export const wallet = new BeaconWallet({
-  name: "Tezos Lottery Dapp",
-  preferredNetwork: "Ghostnet",
+  name: "Tezos NFT MINTING Dapp",
+  preferredNetwork: "ghostnet",
 });
 
 // TODO 2.b - Setup connectWallet function (on jakartanet)
 export const connectWallet = async () => {
-  await wallet.requestPermissions({ network: { type: "jakartanet" } });
+  await wallet.requestPermissions({ network: { type: "ghostnet" } });
 };
 
 // TODO 2.c - Setup getAccount function
