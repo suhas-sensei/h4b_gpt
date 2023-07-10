@@ -10,7 +10,7 @@ function Prompt() {
     "Search Bears with Paint Brushes the Starry Night, painted by Vincent Van Gogh.."
   );
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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",
   });
 
   const openai = new OpenAIApi(configuration);
@@ -53,7 +53,7 @@ function Prompt() {
           <button onClick={generateImage} className="text-lg font-bold p-3 bg-gray-600 rounded-lg border-gray-400 border-2 text-white">Generate an Image</button>
           {result.length > 0 ? (
             <div>
-              <img className="result-image" src={result} alt="result" />
+              <img className="rounded-lg w-[50%] flex items-center justify-center" src={result} alt="result" />
             <  Tickets />
             </div>
             
